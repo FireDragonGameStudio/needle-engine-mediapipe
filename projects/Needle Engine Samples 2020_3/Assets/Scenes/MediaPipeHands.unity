@@ -5325,7 +5325,7 @@ Transform:
   m_GameObject: {fileID: 706762903}
   m_LocalRotation: {x: 0.013393177, y: -0.98046464, z: 0.18258485, w: 0.07192019}
   m_LocalPosition: {x: 1.18, y: 3.6399999, z: 8}
-  m_LocalScale: {x: 1.0000018, y: 1, z: 1.0000029}
+  m_LocalScale: {x: 1.0000025, y: 1, z: 1.0000029}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -5399,10 +5399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Needle.Engine.ExportInfo, Needle.Engine.Common $ GlobalObjectId_V1-2-d541a43e59ef6e94b8483da1bfc954ea-784234923-0
   DirectoryName: Library/Needle/Sample
   AutoExport: 1
-  Dependencies:
-  - Name: '@needle-tools/mediapipe-sample'
-    VersionOrPath: Packages/com.needle.engine-samples/Runtime/Mediapipe/needle-mediapipe.npmdef
-    Guid: 492616fd00ad7b149ac14cbd8539be1c
+  Dependencies: []
 --- !u!4 &784234924
 Transform:
   m_ObjectHideFlags: 0
@@ -5445,7 +5442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Needle.Engine.Deployment.DeployToGlitch, Needle.Engine.Deployment
     $ GlobalObjectId_V1-2-d541a43e59ef6e94b8483da1bfc954ea-784234926-0
-  Glitch: {fileID: 1854954764}
+  Glitch: {fileID: 1282776551}
 --- !u!114 &784234927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5475,7 +5472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Needle.Engine.Deployment.DeployToFTP, Needle.Engine.Deployment
     $ GlobalObjectId_V1-2-4b0acd05539d50444975840c4da7864b-784234929-0
-  FTPServer: {fileID: 11400000, guid: b302aecddeb36624eada38ec53765003, type: 2}
+  FTPServer: {fileID: 0}
   Path: /mediapipe-hands
   OverrideGzipCompression: 1
   UseGzipCompression: 0
@@ -5506,7 +5503,7 @@ Transform:
   m_GameObject: {fileID: 1073112675}
   m_LocalRotation: {x: -0, y: 0.9840864, z: -0, w: 0.17769083}
   m_LocalPosition: {x: 0, y: -2.85, z: 0}
-  m_LocalScale: {x: 6.870071, y: 6.87, z: 6.870071}
+  m_LocalScale: {x: 6.870076, y: 6.87, z: 6.870076}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -5560,6 +5557,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073112675}
   m_Mesh: {fileID: -1377917103452481784, guid: 3cb8c59a6a102554d873e39309f41b28, type: 3}
+--- !u!114 &1282776551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9722be1d85e14bc3a725c1a2e279cd7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProjectName: fdgs-needle-mediapipe
 --- !u!1 &1589812080
 GameObject:
   m_ObjectHideFlags: 0
@@ -5776,7 +5786,7 @@ Transform:
   m_GameObject: {fileID: 1609064305}
   m_LocalRotation: {x: 0.40167108, y: -0.23537974, z: 0.1076274, w: 0.8784493}
   m_LocalPosition: {x: 2.78, y: 4.28, z: -4.81}
-  m_LocalScale: {x: 1, y: 1, z: 1.0000046}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000051}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -5795,19 +5805,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.Rendering.Universal.UniversalAdditionalLightData,
     Unity.RenderPipelines.Universal.Runtime $ GlobalObjectId_V1-2-18364dd9f4c9f334e86075bccc75f65d-1609064308-0
   m_UsePipelineSettings: 1
---- !u!114 &1854954764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9722be1d85e14bc3a725c1a2e279cd7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ProjectName: global-quintessential-nose
 --- !u!1 &1886288796
 GameObject:
   m_ObjectHideFlags: 0

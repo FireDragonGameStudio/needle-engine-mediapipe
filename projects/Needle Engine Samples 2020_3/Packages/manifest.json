@@ -1,36 +1,28 @@
 {
-  "dependencies": {
-    "com.atteneder.draco": "3.4.0",
-    "com.atteneder.gltfast": "5.0.4",
-    "com.needle.console": "2.4.0",
-    "com.needle.engine-exporter": "3.9.0-exp",
-    "com.needle.engine-samples": "0.7.0",
-    "com.needle.engine-tests": "file:../../../tests",
-    "com.needle.missing-component-info": "1.6.0",
-    "com.needle.package-tools": "0.9.11",
-    "com.needle.shadergraph-markdown": "1.5.1",
-    "com.unity.2d.sprite": "1.0.0",
-    "com.unity.ide.rider": "3.0.21",
-    "com.unity.render-pipelines.universal": "10.10.1",
-    "com.unity.test-framework": "1.1.33",
-    "com.unity.modules.animation": "1.0.0",
-    "com.unity.modules.uielements": "1.0.0",
-    "com.unity.modules.unitywebrequest": "1.0.0",
-    "com.unity.modules.video": "1.0.0"
+  "dependencies" : {
+    "com.unity.2d.sprite" : "1.0.0",
+    "com.unity.ide.rider" : "3.0.21",
+    "com.unity.render-pipelines.universal" : "10.10.1",
+    "com.unity.test-framework" : "1.1.33",
+    "com.unity.modules.animation" : "1.0.0",
+    "com.unity.modules.uielements" : "1.0.0",
+    "com.unity.modules.unitywebrequest" : "1.0.0",
+    "com.unity.modules.video" : "1.0.0",
+    "com.needle.engine-exporter" : "3.9.0-exp"
   },
-  "scopedRegistries": [
+  "scopedRegistries" : [
     {
-      "name": "needle",
-      "url": "https://packages.needle.tools",
-      "scopes": [
+      "name" : "needle",
+      "url" : "https://packages.needle.tools",
+      "scopes" : [
         "com.needle",
         "org.khronos"
       ]
     },
     {
-      "name": "OpenUPM",
-      "url": "https://package.openupm.com",
-      "scopes": [
+      "name" : "OpenUPM",
+      "url" : "https://package.openupm.com",
+      "scopes" : [
         "com.needle.console",
         "com.needle.animation-utils",
         "com.needle.shadergraph-markdown",
@@ -40,7 +32,7 @@
       ]
     }
   ],
-  "testables": [
+  "testables" : [
     "com.needle.engine-tests",
     "com.needle.compilation-visualizer"
   ]

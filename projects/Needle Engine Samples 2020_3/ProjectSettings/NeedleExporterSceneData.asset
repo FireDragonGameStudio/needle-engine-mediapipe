@@ -188,12 +188,10 @@ MonoBehaviour:
     - ProjectPath: Library/Needle/Sample
     BuilderScene: 
   - Path: Packages/com.needle.engine-samples/Runtime/HTMLCustomLayout/CustomLayout.unity
-    Projects:
-    - ProjectPath: Packages/com.needle.engine-samples/WebProjects~/HTMLCustomLayout
+    Projects: []
     BuilderScene: 
   - Path: Packages/com.needle.engine-samples/Runtime/HTMLAROverlay/AROverlay.unity
-    Projects:
-    - ProjectPath: Packages/com.needle.engine-samples/WebProjects~/AROverlay
+    Projects: []
     BuilderScene: 
   - Path: Packages/com.needle.engine-samples/Runtime/VideoPlayer/VideoPlayer.unity
     Projects:
@@ -227,8 +225,7 @@ MonoBehaviour:
     - ProjectPath: Library/Needle/Sample
     BuilderScene: 
   - Path: Packages/com.needle.engine-samples/Runtime/HTMLCustomXRButtons/HTMLCustomXRButtons.unity
-    Projects:
-    - ProjectPath: Packages/com.needle.engine-samples/WebProjects~/HTMLCustomXRButtons
+    Projects: []
     BuilderScene: 
   - Path: Packages/com.needle.engine-samples/Runtime/ShadowCatcher/ShadowCatcher.unity
     Projects:
@@ -270,8 +267,7 @@ MonoBehaviour:
     BuilderScene: 
   - Path: Packages/com.needle.engine-samples/Runtime/Javascript-Interop/Javascript
       interop.unity
-    Projects:
-    - ProjectPath: Packages/com.needle.engine-samples/WebProjects~/Javascript-Interop
+    Projects: []
     BuilderScene: 
   - Path: Assets/PostProcessing.unity
     Projects:
@@ -297,7 +293,3 @@ MonoBehaviour:
   - ProjectPath: Library/Needle/Sample
   - ProjectPath: ../../package/WebProjects~/Scrollytelling
   - ProjectPath: ../../package/WebProjects~/HTMLCustomLayout
-  - ProjectPath: Packages/com.needle.engine-samples/WebProjects~/HTMLCustomLayout
-  - ProjectPath: Packages/com.needle.engine-samples/WebProjects~/HTMLCustomXRButtons
-  - ProjectPath: Packages/com.needle.engine-samples/WebProjects~/AROverlay
-  - ProjectPath: Packages/com.needle.engine-samples/WebProjects~/Javascript-Interop
