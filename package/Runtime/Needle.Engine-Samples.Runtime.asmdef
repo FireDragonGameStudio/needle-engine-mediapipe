@@ -1,0 +1,17 @@
+{
+    "name": "Needle.Engine-Samples.Runtime",
+    "rootNamespace": "Needle",
+    "references": [
+        "Needle.Engine.Common",
+        "Needle.Engine"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
