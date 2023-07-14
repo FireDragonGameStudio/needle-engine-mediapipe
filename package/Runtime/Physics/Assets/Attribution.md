@@ -1,1 +1,0 @@
-Models by Jeremy from https://github.com/jeremytoys/3moji 🙏
